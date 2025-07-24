@@ -8,7 +8,7 @@ const Portfolio = () => {
         setActiveProjectId(activeProjectId === id ? null : id);
     };
   return (
-    <section id="portfolio" className="max-w-7xl mt-20 mb-20 mx-auto border-b-2 ">
+    <section id="portfolio" className="max-w-7xl mt-20 pb-20 mx-auto border-b-2 ">
         <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             {PORTFOLIO_PROJECTS.map((project) => (
                 <div
