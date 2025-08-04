@@ -20,19 +20,6 @@ A modern, responsive website built with React and Tailwind CSS for a fictional h
 - Vite
 - Deployed on Vercel
 
-📁 Folder Structure
-
-src/
-│
-├── assets/ Images and icons
-├── components/ # Navbar, Footer, ServiceCards etc.
-├── pages/ # Home, Services, Contact pages
-├── constants/ # Static service data
-├── App.jsx
-└── main.jsx
-└── index.css
-└── App.css
-
 Clone and run locally:
 
 ash
