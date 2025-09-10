@@ -1,26 +1,19 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Services from "./components/Services";
-import Portfolio from "./components/Portfolio";
-import About from "./components/About";
-import Reviews from "./components/Reviews";
-import ContactUs from "./components/ContactUs";
-import Footer from "./components/Footer";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import MainLandingPage from "./pages/MainLandingPage";
+import BookingPage from "./pages/BookingPage";
 
 
 function App() {
-  return (
-    <main className="overflow-x-hidden antialiased text-neutral-800">
-      <Navbar/>
-      <Hero/>
-      <Services/>
-      <Portfolio/>
-      <About/>
-      <Reviews/>
-      <ContactUs/>
-      <Footer/>
-    </main>
+return (  
+    <>
+   <Router>
+      <Routes>
+        <Route path="/" element={<MainLandingPage />} />
+        <Route path="/quote" element={<BookingPage />} />
+      </Routes>
+    </Router>
+    </>
   );
 }
 

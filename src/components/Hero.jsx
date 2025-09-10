@@ -12,6 +12,7 @@ const Hero = () => {
                 Re-imagine Your Space with Expert Renovation Services
             </p>
             <img src={heroImg} alt="hero-image" className='w-full object-cover rounded-2xl p-2 h-[65vh]' />
+            <a href='/quote' className='mt-4 bg-[#d2af9a] font-semibold tracking-wide shadow px-8 py-2 rounded'>Request a Free Renovation Quote</a>
         </div>
    </section>
   )
